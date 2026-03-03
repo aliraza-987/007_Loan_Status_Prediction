@@ -1,0 +1,26 @@
+# Loan Status Prediction 💰
+
+A Machine Learning project that predicts whether a loan application will be **Approved** or **Rejected**.
+
+## Dataset
+
+- **Size:** 3,192 samples
+- **Features:** 12 input features (Gender, Income, Age, Credit History, etc.)
+- **Target:** Loan_Status (Approved or Rejected)
+
+## Models Tested
+
+| Model | Accuracy | Precision | Recall | F1 Score |
+|-------|----------|-----------|--------|----------|
+| **Random Forest** | **98.44%** | **100%** | **96.97%** | **0.9846** |
+| Logistic Regression | 98.12% | 99.38% | 96.97% | 0.9816 |
+| Support Vector Machine | 49.14% | 52.38% | 16.67% | 0.2529 |
+
+## 🏆 Best Model: Random Forest
+
+- **Accuracy:** 98.44%
+- **Precision:** 100%
+- **Recall:** 96.97%
+- **F1 Score:** 0.9846
+
+## Confusion Matrix (Best Model)
